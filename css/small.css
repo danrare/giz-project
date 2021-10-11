@@ -1,0 +1,130 @@
+@media(max-width:599px){
+    .logo{
+        display:flex;
+        justify-content: space-between;
+        width:100%;
+    }
+}
+
+
+@media(max-width:600px){
+    .logo{
+        display:flex;
+        justify-content: space-between;
+        width:100%;
+    }
+ nav .form-inline{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+ p{
+     margin-bottom: 0;
+ }
+
+ .search{
+     border:none;
+ }
+
+ .search{
+     display:none;
+ }
+
+ .navbar{
+     background-color: #000;
+     padding:0.5rem 0;
+ }
+
+ .navs{
+    border-radius: 0;
+    background-color: transparent;
+    margin: 0 !important;
+    margin-left: 2px;
+ }
+
+ .sm-active{
+     background-color: rgba(255, 255, 255, 0.5);
+ }
+
+ .navs:hover{
+     background-color: rgba(255, 255, 255, 0.2);
+ }
+
+ .navbar-toggler{
+     border:none;
+     outline:none;
+     background-image:url("../images/box.png");
+     background-size: cover;
+     background-repeat: none;
+     background-position: center;
+ }
+
+ .point-logo{
+     width:100px;
+ }
+
+ 
+ .logo p{
+     font-size: 10px;
+ }
+
+ 
+#carousel {
+    margin-top: 0px;
+}
+ .carousel-caption{
+     bottom:2px;
+     left:16%;
+     width:40%;
+ }
+
+ .carousel-text{
+     font-size:0.8rem;
+ }
+
+ .carousel-header{
+     font-size: 1.2rem;
+ }
+
+ #middle-section{
+     margin-top:0;
+ }
+
+ /* .con-misce{
+     text-align: center;
+ } */
+ h1{
+     font-size: 1.8rem;
+ }
+
+ h2{
+     font-size: 1.2rem;
+ }
+
+ .text-form{
+     margin-bottom:10px;
+ }
+
+ .serve,.top-reviews,.bottom-reviews{
+     flex-direction: column;
+ }
+
+}
+
+@media(max-width:350px){
+    .services{
+        text-align: center;
+    }
+
+    .bnt{
+        text-align: center;
+    }
+
+    .bnt button{
+        margin-bottom: 10px;
+    }
+
+    .navs{
+        margin-left:0 !important;
+    }
+}

@@ -1,0 +1,302 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../images/body.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 1.5rem !important;
+    font-weight:500;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+button{
+    border-radius: 10px;
+    border: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#fff;
+}
+
+header{
+    color:#fff;
+    text-transform: uppercase;
+}
+
+header p{
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 5px;
+}
+
+header p{
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 5px;
+}
+
+input{
+    width:550px;
+    height:30px;
+    border:1px solid lightgray;
+}
+
+label{
+    text-align: left;
+    display: inline-block;
+    width:70px;
+}
+
+textarea{
+    width:550px;
+    height:312px;
+    border:1px solid lightgray;
+}
+
+nav .form-inline{
+    display:none;
+}
+
+
+.navs{
+    background-color: #000;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 15px;
+    margin-left: 2px;
+    width: 140px;
+    height:60px;
+    text-align: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius:15px;
+}
+
+.navbar{
+  
+    padding-right: 0 !important;
+}
+
+
+.ative{
+    background-color: #fff;
+    color:#000;
+    padding: 18px 18px;
+    width: 160px;
+}
+
+
+.bnt{
+    text-align: right;
+    margin-top:10px;
+}
+
+.nav-bar{
+    text-align: right;
+}
+
+
+.search-box input[type="text"]{
+    width:170px;
+    height:35px;
+    border-radius: 8px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius:0 ;
+    border:none;
+    outline: none;
+    font-size: 12px;
+}
+
+.search-icon:hover{
+    background-color: lightgray;
+}
+
+.logo-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.search{
+    display:flex;
+    align-items: center;
+    border:18px solid black;
+    border-radius: 10px;
+}
+
+.search-icon{
+    background-color: rgb(64, 135, 230);
+    height: 35px;
+    width: 35px;
+    padding: 7px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#middle-section{
+    background-color: #fff;
+    padding:40px;
+    border-top-left-radius: 10px;
+    position:relative;
+    /* margin-top: -18px; */
+}
+
+.justify-content{
+    justify-content: space-evenly !important;
+}
+
+.contact-form{
+    display:flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 20px;
+}
+
+.form{
+    padding-top:15px;
+}
+
+.con-misce{
+    background-color: #fafafa;
+    border: 1px solid #e8e8e8;
+    border-radius: 20px;
+    padding: 40px 40px 0;
+    padding-bottom: 1px;
+}
+
+.con-misce h2{
+    margin-bottom:15px;
+}
+
+.con-misce div{
+    margin-bottom:20px;
+}
+
+.miscel p{
+    line-height: 1.5;
+    color:rgb(148, 147, 147);
+}
+
+.con-misce span{
+    display:inline-block;
+    color:rgb(148, 147, 147);
+    margin-top: 8px;
+}
+
+.message{
+    position:relative;
+    bottom:300px;
+}
+
+.reviews-container{
+    background-color: lightgray;
+    display:flex;
+    justify-content: space-around;
+    padding:20px;
+}
+
+.reviews{
+    background-image: url(../images/box.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius:20px;
+}
+
+
+.bg-muted{
+    background-color:lightgray;
+}
+
+.reviews h2{
+    font-size: 35px;
+    color:#fff;
+}
+
+.reviews h3{
+    font-size: 30px;
+    color:#fff;
+    line-height: 0.9;
+}
+
+.top-reviews{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.num{
+    border-radius: 8px;
+    align-self: start;
+}
+
+
+.bottom-reviews{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-reviews img{
+    margin-left:10px;
+    width:50px;
+}
+
+.tags{
+    color:gray;
+}
+
+.add-parent{
+    display:flex;
+}
+
+.details{
+    margin-right:15px;
+}
+
+
+.social img{
+    margin-bottom:10px;
+}
+
+.details p,.location p,.social p,li{
+    margin-bottom: 10px;
+    color:lightslategray;
+}
+
+
+.details p{
+    color:white;
+}
+
+.bottom-logo{
+    align-self: center;
+    padding-top:20px;
+}
+
+.bottom-logo p{
+    color:lightslategray;
+}
+
+footer{
+    background-color: #000;
+}
