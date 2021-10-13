@@ -116,14 +116,12 @@ nav .form-inline{
 
 #middle-section{
     background-color: #fff;
-    border:none;
-    position:relative;
 }
 
 #carousel{
     background-color: #fff;
     border-top-right-radius: 15px;
-    margin-top: -20px;
+    margin-top: -18px;
 }
 
 #bottom-section{
@@ -150,11 +148,6 @@ nav .form-inline{
 
 .carousel-images{
     padding-right: 40px;
-}
-
-
-#middle-section{
-    background-color: #fff;
 }
 
 .reviews-container{
